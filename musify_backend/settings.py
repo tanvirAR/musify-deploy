@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'musify_backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'verceldb',
         'USER': 'default',
         'PASSWORD': 'ps7MzuoHa0kG',
