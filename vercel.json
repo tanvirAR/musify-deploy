@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "src": "musify_backend/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "musify_backend/wsgi.py"
+    }
+  ]
+}
