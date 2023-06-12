@@ -49,4 +49,4 @@ tzdata==2022.7
 uritemplate==4.1.1
 urllib3==1.26.15
 wrapt==1.15.0
-psycopg2==2.9.6
+psycopg2-binary==2.9.1
