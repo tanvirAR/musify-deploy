@@ -9,7 +9,7 @@
     "restartPolicyMaxRetries": 10
   },
   "scripts": {
-    "start": "python manage.py runserver"
+    "start": "python manage.py runserver 0.0.0.0:$PORT"
   },
   "plugins": [
     "@railway/sqlite",
