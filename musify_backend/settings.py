@@ -160,6 +160,7 @@ ALLOWED_HOSTS = [
     "27f6-103-187-94-250.ngrok-free.app",
     "27f6-103-187-94-250.ngrok.io",
     "af3c-103-187-94-250.ngrok-free.app",
+    'musify-deploy-production-2297.up.railway.app',
     '.vercel.app'
 ]
 SESSION_COOKIE_SAMESITE = 'None'
