@@ -105,6 +105,8 @@ DATABASES = {
     }
 }
 
+CSRF_TRUSTED_ORIGINS = ['https://musify-deploy-production-2297.up.railway.app/']
+
 # 'NAME': BASE_DIR / 'db.sqlite3',
 
 # Password validation
