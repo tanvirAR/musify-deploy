@@ -159,7 +159,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    '3d94-45-248-151-238.ngrok-free.app', 
+    '1168-103-217-111-239.ngrok-free.app', 
     'musify-deploy-production-2297.up.railway.app',
     
 ]
