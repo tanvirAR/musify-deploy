@@ -159,11 +159,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "27f6-103-187-94-250.ngrok-free.app",
-    "27f6-103-187-94-250.ngrok.io",
-    "af3c-103-187-94-250.ngrok-free.app",
+    '3d94-45-248-151-238.ngrok-free.app', 
     'musify-deploy-production-2297.up.railway.app',
-    '.vercel.app'
+    
 ]
 SESSION_COOKIE_SAMESITE = 'None'
 CSRF_COOKIE_SAMESITE = 'None'
