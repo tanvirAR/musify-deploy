@@ -185,5 +185,8 @@ CORS_ALLOWED_HEADERS = [
     'x-requested-with'
 ]
 
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
+
 # e7d8-103-187-94-227.ngrok-free.app
 # e7d8-103-187-94-227.ngrok-free.app
