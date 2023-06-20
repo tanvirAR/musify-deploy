@@ -82,19 +82,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'musify_backend.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'verceldb',
-#         'USER': 'default',
-#         'PASSWORD': 'ps7MzuoHa0kG',
-#         'HOST': 'ep-shy-bonus-085947-pooler.ap-southeast-1.postgres.vercel-storage.com',
-#         'PORT': '5432',
-#     }
-# }
 import os
 
 DATABASES = {
@@ -151,12 +139,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-# ALLOWED_HOSTS = ["localhost8000", "localhost",
-# "e8c9-103-187-94-227.ngrok.io",
-#                  "127.0.0.1", "https://9d45-103-187-94-250.ngrok.io", "11dc-103-187-94-250.ngrok-free.app"]
-  # "localhost",
-  #   "127.0.0.1",
 
 ALLOWED_HOSTS = [
     'musify-deploy-production-2297.up.railway.app',
